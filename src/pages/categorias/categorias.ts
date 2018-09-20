@@ -1,15 +1,8 @@
-import { CategoriaDTO } from './../../models/Categoria.dto';
+import { CategoriaDTO } from '../../models/categoria.dto';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { CategoriaService } from '../../services/domain/categoria.service';
 import { API_CONFIG } from '../../config/api.config';
-
-/**
- * Generated class for the CategoriasPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
