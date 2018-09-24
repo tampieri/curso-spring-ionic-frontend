@@ -13,8 +13,8 @@ import { LoadingController } from 'ionic-angular/components/loading/loading-cont
 })
 export class ProdutosPage {
 
-   items : ProdutoDTO[] = [];
-   page : number = 0;
+  items : ProdutoDTO[] = [];
+  page : number = 0;
 
    constructor(
       public navCtrl: NavController, 
@@ -38,8 +38,6 @@ export class ProdutosPage {
         console.log(this.page);
         console.log(this.items);
         this.loadImageUrls(start, end);
-        
-        
       },
       error => {
         loader.dismiss();
